@@ -1,13 +1,10 @@
-// console.log("Hello, World!");
-// let userName = prompt("Please enter your name:");
-// console.log(userName);
 
-let Age = 25;
+let price = +prompt("قیمت محصول را وارد کنید بعد از تخفیف قیمت نهایی نمایش داده میشود")
 
-console.log(typeof Age);
-console.log(Age);
+let mb = price * 10 / 100
 
-let stringeAge = String(Age);
+let sume = price - mb
 
-console.log(typeof stringeAge);
-console.log(stringeAge);
+
+console.log("قیمت نهایی شماه:"+ sume);
+
